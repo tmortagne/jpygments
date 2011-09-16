@@ -1,0 +1,2 @@
+* put pygments folder in src/main/resources
+* run mvn install
