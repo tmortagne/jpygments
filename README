@@ -1,2 +1,9 @@
+Repackaging of Pygments highlighting library as jar usable with Jython.
+
+* download from http://pypi.python.org/pypi/Pygments (take the Py 2.5 version since that's what Jython supports for now)
 * put pygments folder in src/main/resources
-* run mvn install
+* run mvn clean deploy
+
+TODO:
+* would be nice to use http://mavenjython.sourceforge.net/compile/ but the result put python files in lib/ folder which does not work well as library jar for some reason
+* propose it to Pygments guys when clean enough ? not sure they would want to take care of that...
