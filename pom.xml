@@ -3,7 +3,7 @@
   <groupId>org.pygments</groupId>
   <artifactId>pygments</artifactId>
   <name>pygments</name>
-  <version>1.5</version>
+  <version>1.6rc1</version>
   <description>pygments</description>
   <url>http://www.pygments.org</url>
   <prerequisites>
