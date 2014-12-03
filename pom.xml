@@ -2,9 +2,9 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.pygments</groupId>
   <artifactId>pygments</artifactId>
-  <name>pygments</name>
+  <name>Pygments</name>
   <version>2.0</version>
-  <description>pygments</description>
+  <description>Pygments</description>
   <url>http://www.pygments.org</url>
   <prerequisites>
     <maven>3.0</maven>
@@ -45,6 +45,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-source-plugin</artifactId>
+        <version>2.4</version>
         <executions>
           <execution>
             <id>attach-sources</id>
@@ -57,6 +58,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-gpg-plugin</artifactId>
+        <version>1.5</version>
         <executions>
           <execution>
             <id>sign-artifacts</id>
