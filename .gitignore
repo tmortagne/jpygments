@@ -34,7 +34,11 @@ bin
 nbproject
 
 # Other
+*~
 *.log.*
 *.log
 .sonar-ide.properties
 .clover
+
+# We don't have source stored in this project yet
+src/
