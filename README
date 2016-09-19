@@ -1,1 +1,6 @@
-Skeleton used to repackage Pygments as a JAR usable by Jython.
+Skeleton used to repackage [Pygments](http://www.pygments.org) as a JAR usable by Jython.
+
+* download Pygments .whl file from https://pypi.python.org/pypi/Pygments
+* extract content of .whl file in src/main/resources
+* update the <version> and the <tag> in the pom.xml
+* mvn deploy
