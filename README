@@ -2,7 +2,7 @@ Skeleton used to repackage [Pygments](http://www.pygments.org) as a JAR usable b
 
 * download Pygments .whl file from https://pypi.org/project/Pygments/
 * extract content of .whl file in src/main/resources
-* commit
 * update the <version> and the <tag> in the pom.xml
+* commit
 * mvn deploy
 * go to https://oss.sonatype.org/#stagingRepositories to "close" and "release"
